@@ -1,0 +1,8 @@
+f= open("sample.txt", "w")
+f.write("This is a sample file.\n")
+f.write("My name is Ronak Das and this is the sameple text file for my assignment.\n ")
+f.close()
+f= open("sample.txt", "r")
+content = f.read()
+f.close()
+print(content)
